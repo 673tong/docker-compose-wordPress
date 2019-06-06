@@ -2,9 +2,11 @@
 使⽤Docker Compose编排WordPress博客
 
 mkdir docker-compose-wordpress
+
 cd docker-compose-wordpress
 
 docker-compose up
+
 安装完访问：http://ip:40010
 
 #停止WordPress
