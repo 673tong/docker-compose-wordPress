@@ -9,7 +9,7 @@ services:
   wordpress:
     image: wordpress
     ports:
-      - "80:80"
+      - "40010:40010"
     environment:
       - WORDPRESS_DB_HOST=mysql
       - WORDPRESS_DB_USER=root
