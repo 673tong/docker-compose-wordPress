@@ -20,3 +20,5 @@ Stopping root_wordpress_1 ... done
 #或者
 [root@localhost ~]# docker-compose start wordpress
 Starting wordpress ... done
+
+mysql用户/密码：
