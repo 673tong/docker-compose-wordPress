@@ -1,13 +1,13 @@
 # docker-compose-wordPress
-使⽤Docker Compose编排WordPress博客
+#使⽤Docker Compose编排WordPress博客
 
+#执行下面的命令
 mkdir docker-compose-wordpress
-
 cd docker-compose-wordpress
-
+wget https://raw.githubusercontent.com/673tong/docker-compose-wordPress/master/docker-compose.yml
 docker-compose up
 
-安装完访问：http://ip:40010
+#安装完访问：http://ip:40010
 
 #停止WordPress
 [root@localhost ~]# docker stop 9f7c9dc13277 
